@@ -1,0 +1,29 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "scripts": {
+    "start:autoChatDel": "node autoChatDel.js",
+    "start:autoChatSave": "node autoChatSave.js"
+  },
+  "author": "Sekuja",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "discord.js-selfbot-v13": "^3.3.0",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "node-schedule": "^2.1.1",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sekuja/discordbot.git"
+  },
+  "keywords": [
+    "discord bots",
+    "bot",
+    "messaging",
+    "chat",
+    "nodejs"
+  ]
+}
